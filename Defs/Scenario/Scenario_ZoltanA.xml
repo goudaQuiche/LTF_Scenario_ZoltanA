@@ -4,7 +4,7 @@
 	<ScenarioDef>
 		<defName>ZoltanAScenario</defName>
 		<label>FTL Scenario - Zoltan A</label>
-		<description>The Zoltan's advanced shields technology give this ship an edge during each battle. Unfortunately, It's crashed right now.</description>
+		<description>The Zoltan's advanced shields technology give this ship an edge during each battle. Unfortunately, It crashed on this planet.</description>
 		<scenario>
 		
 			<summary>The Adjudicator dawn</summary>
@@ -204,12 +204,9 @@
 					<def>GameStartDialog</def>
 					<text>Zoltan A is super straightforward.
 
-On the first two Sectors, you need... Absolutely nothing.
-Maybe an extra Weapon System Power "just in case" you need to fire that super-crappy Leto missile if you're unlucky enough to find an enemy with two shields. Your most dangerous encounters are Zoltan Cruisers in asteroid fields. 
-What you really need early on is another crew member to pilot the ship, so that every zoltan's passive is used.
-Then by the end of sector 2, you need to have at least one more shields.
+On the first two Sectors, you need... Absolutely nothing. Maybe an extra Weapon System Power "just in case" you need to fire that super-crappy Leto missile if you're unlucky enough to find an enemy with two shields. Your most dangerous encounters are Zoltan Cruisers in asteroid fields. What you really need early on is another crew member to pilot the ship, so that every zoltan's passive is used. Then by the end of sector 2, you need to have at least one more shields.
 
-That's what was going through your mind your ship had to fight in these damn asteroid fields. You were forced into a quick landing on this planet.</text>
+That's what was going through your mind when your ship had to fight in of these damn asteroid fields. You were forced into a quick landing on this planet.</text>
 					<closeSound>ZoltanA_FtlMusic</closeSound>
 				</li>
 
