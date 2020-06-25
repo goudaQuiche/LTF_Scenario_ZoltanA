@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef>
+		<defName>ZoltanA_PlayerColony</defName>
+		<label>Zoltan-A crew</label>
+		<description>Remainings of The Adjudicator crash</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Zoltan</basicMemberKind>
+		<pawnsPlural>zoltan-A survivors</pawnsPlural>
+
+		<settlementNameMaker>ZoltanVillageNamer</settlementNameMaker>
+		<playerInitialSettlementNameMaker>ZoltanVillageNamer</playerInitialSettlementNameMaker>
+		<factionNameMaker>ZoltanFactionNamer</factionNameMaker>
+
+		<factionIconPath>WorldIcon/ZoltanA_factionIcon</factionIconPath>
+		<settlementTexturePath>WorldIcon/ZoltanA_settlementTexture</settlementTexturePath>
+
+		<colorSpectrum>
+			<!-- kestrel C violet -->
+			<li>(255,255,255)</li>
+		</colorSpectrum>
+
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outsider</li>
+					<li>ZoltanBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+
+		<techLevel>Industrial</techLevel>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>		
+
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+</Defs>

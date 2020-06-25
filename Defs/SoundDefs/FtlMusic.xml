@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<SoundDef>
+		<defName>ZoltanA_FtlMusic</defName>  
+		<context>MapOnly</context>  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		<li>
+			<onCamera>True</onCamera>      
+				<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>FtlIntroSavageCut</clipPath>
+				</li>
+				</grains>      
+			<volumeRange>35~45</volumeRange>
+			<distRange>10~70</distRange>
+		</li>
+		</subSounds>
+	</SoundDef>
+  
+</Defs>

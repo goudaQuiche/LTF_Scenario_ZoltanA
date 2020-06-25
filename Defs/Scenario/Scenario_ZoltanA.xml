@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>ZoltanAScenario</defName>
+		<label>FTL Scenario - Zoltan A</label>
+		<description>The Zoltan's advanced shields technology give this ship an edge during each battle. Unfortunately, It's crashed right now.</description>
+		<scenario>
+		
+			<summary>The Adjudicator dawn</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>ZoltanA_PlayerColony</factionDef>
+			</playerFaction>
+			
+			<parts>
+
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>10</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.2</chance>
+					<hediff>Malnutrition</hediff>
+					<severityRange>
+						<min>0.2</min>
+						<max>0.4</max>
+					</severityRange>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.5</chance>
+					<hediff>ToxicBuildup</hediff>
+					<severityRange>
+						<min>0.1</min>
+						<max>0.4</max>
+					</severityRange>
+				</li>
+
+				<li Class="ScenPart_SetNeedLevel">
+					<def>SetNeedLevel</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>.3</chance>
+					<need>Food</need>
+					<levelRange>
+						<min>.1</min>
+						<max>.25</max>
+					</levelRange>
+				</li>
+
+				<!-- Starting research -->
+				<!--
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Electricity</project>
+				</li>
+				-->
+
+				<!-- Player starting things -->				
+				<!-- Starting Buildings -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>LTF_MedBay</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>LTF_ShieldBench</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Turret_Mortar</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Battery</thingDef>
+					<count>2</count>
+				</li>
+
+				<!-- Money -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>250</count>
+				</li>
+				<!-- Medicine -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>20</count>
+				</li>
+				<!-- ressources-->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<!-- Food -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>25</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RawBerries</thingDef>
+					<count>75</count>
+				</li>
+				<!-- Apparel weapon-->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>LTF_shieldmet</thingDef>
+					<count>3</count>
+					<stuff>Plasteel</stuff>
+				</li>
+				<!-- Melee weapon-->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Mace</thingDef>
+					<count>1</count>
+					<stuff>Jade</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<count>1</count>
+					<stuff>Jade</stuff>
+				</li>
+				<!-- Ranged weapon-->	
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>500</count>
+				</li>
+
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>ChunkSlagSteel</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>LTF_MediFuel</thingDef>
+					<count>350</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Bullet_Shell_HighExplosive</thingDef>
+					<count>12</count>
+				</li>
+				
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>3</count>
+				</li>
+
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Boomrat</animalKind>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>.8</bondToRandomPlayerPawnChance>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+				</li>
+
+				<!-- <li Class="ScenPart_CreateIncident"> -->
+					<!-- <def>ShipChunkDrop</def> -->
+				<!-- </li> -->
+
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Zoltan A is super straightforward.
+
+On the first two Sectors, you need... Absolutely nothing.
+Maybe an extra Weapon System Power "just in case" you need to fire that super-crappy Leto missile if you're unlucky enough to find an enemy with two shields. Your most dangerous encounters are Zoltan Cruisers in asteroid fields. 
+What you really need early on is another crew member to pilot the ship, so that every zoltan's passive is used.
+Then by the end of sector 2, you need to have at least one more shields.
+
+That's what was going through your mind your ship had to fight in these damn asteroid fields. You were forced into a quick landing on this planet.</text>
+					<closeSound>ZoltanA_FtlMusic</closeSound>
+				</li>
+
+			</parts>
+		</scenario>
+
+	</ScenarioDef>
+</Defs>

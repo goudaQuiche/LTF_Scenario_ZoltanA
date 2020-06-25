@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<AlienRace.RaceSettings>
+		<defName>KestrelC_Settings</defName>
+	
+		<pawnKindSettings>
+			<!-- colonists -->
+			<startingColonists>
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>Zoltan</li>
+						</kindDefs>
+						<chance>75</chance>
+					</li>
+					<li>
+						<kindDefs>
+							<li>ZoltanColonist</li>
+						</kindDefs>
+						<chance>20</chance>
+					</li>
+					<li>
+						<kindDefs>
+							<li>ZoltanSlave</li>
+						</kindDefs>
+						<chance>5</chance>
+					</li>
+				</pawnKindEntries>
+					
+				<factionDefs>
+					<li>ZoltanA_PlayerColony</li> 
+				</factionDefs>
+			</li>
+			</startingColonists>
+			
+			<!-- slave -->
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>ZoltanSlave</li>
+					</kindDefs>
+					<chance>5.0</chance>
+				</li>
+				<li>
+					<kindDefs>
+						<li>Slave</li>
+					</kindDefs>
+					<chance>5.0</chance>
+				</li>
+			</alienslavekinds>
+
+			<!-- refugee -->
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>ZoltanRefugee</li>
+					</kindDefs>
+					<chance>4.0</chance>
+				</li>
+				<li>
+					<kindDefs>
+						<li>Refugee</li>
+					</kindDefs>
+					<chance>5.0</chance>
+				</li>
+			</alienrefugeekinds>
+			
+			<!-- wanderer -->
+			<alienwandererkinds>
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>ZoltanWanderer</li>
+						</kindDefs>
+						<chance>4.0</chance>
+					</li>
+					<li>
+						<kindDefs>
+							<li>Wanderer</li>
+						</kindDefs>
+						<chance>4.0</chance>
+					</li>
+				</pawnKindEntries>
+				
+				<factionDefs>
+					<li>ZoltanA_PlayerColony</li> 
+				</factionDefs>
+			</li>
+			</alienwandererkinds>
+			
+		</pawnKindSettings>
+		
+	</AlienRace.RaceSettings>
+</Defs>

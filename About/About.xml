@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>FTL Scenario - Zoltan cruiser A</name>
+	<author>Gouda quiche</author>
+	<url>https://github.com/goudaQuiche</url>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>goudaquiche.LtfZoltanCruiserA</packageId>
+
+	<modDependencies>
+		<li>
+			<packageId>goudaquiche.LtfZoltanRace</packageId>
+			<displayName>Zoltan race</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2032477436</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>goudaquiche.LtfMedBay</packageId>
+			<displayName>Medbay</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2101075718</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+	<loadAfter>
+		<li>goudaquiche.ZoltanRace</li>
+		<li>goudaquiche.LtfMedBay</li>
+	</loadAfter>
+
+	<description>Also called "The Adjudicator", that vessel crew is composed of 3 Zoltans.
+	
+An adjudicator is someone who presides, judges, and arbitrates during a formal dispute or competition. Given the Zoltan more peaceful ways, and that when entering Zoltan Sectors it states" you will be given a fair trial", this seems to imply that the name was given as the Zoltan see it in a more peacekeeping role.
+
+The Zoltan's advanced shields technology give this ship an edge during each battle. Unfortunately, It's crashed right now.
+
+In this scenario, inspired by Faster than Light, you will start with :
+- 1 medbay
+- 1 shieldbench
+- 2 batteries
+- 1 mortar turret
+- 3 shieldmets
+- 30 industrial components
+- 1 revolver, 1 jade knife, 1 jade mace
+- 2 animals
+
+In the surroundings are scattered :
+- 350 Medifuel
+- 500 Steel
+- 12 mortar shells
+
+You will start with no technology, but your guys used to be in a spaceship, they cant be dumb. They hope to escape this planet. Is there still time for them to traverse the sectors of space to reach the Federation Fleet, and warn them of the incoming rebel threat ? Surviving looks more essential for now.
+	</description>
+</ModMetaData>
