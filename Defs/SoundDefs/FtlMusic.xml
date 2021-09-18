@@ -2,7 +2,7 @@
 <Defs>
 
 	<SoundDef>
-		<defName>ZoltanA_FtlMusic</defName>  
+		<defName>Sound_FtlMusicIntro</defName>  
 		<context>MapOnly</context>  
 		<maxSimultaneous>1</maxSimultaneous>  
 		<subSounds>

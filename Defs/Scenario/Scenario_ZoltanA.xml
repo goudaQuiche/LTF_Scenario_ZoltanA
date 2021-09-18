@@ -207,7 +207,7 @@
 On the first two Sectors, you need... Absolutely nothing. Maybe an extra Weapon System Power "just in case" you need to fire that super-crappy Leto missile if you're unlucky enough to find an enemy with two shields. Your most dangerous encounters are Zoltan Cruisers in asteroid fields. What you really need early on is another crew member to pilot the ship, so that every zoltan's passive is used. Then by the end of sector 2, you need to have at least one more shields.
 
 That's what was going through your mind when your ship had to fight in of these damn asteroid fields. You were forced into a quick landing on this planet.</text>
-					<closeSound>ZoltanA_FtlMusic</closeSound>
+					<closeSound>Sound_FtlMusicIntro</closeSound>
 				</li>
 
 			</parts>
